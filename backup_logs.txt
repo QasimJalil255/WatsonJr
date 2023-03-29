@@ -1,0 +1,128 @@
+[STEP] [2023-03-29 16:19:32] Looking for PHP CLI executable file.
+[WARN] [2023-03-29 16:19:32] PHP CLI is disabled in your php.ini file, the process may be unstable.
+[WARN] [2023-03-29 16:19:32] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2023-03-29 16:19:32] Initializing backup...
+[INFO] [2023-03-29 16:19:32] Backup & Migration version: 1.2.7
+[INFO] [2023-03-29 16:19:32] Site which will be backed up: ***site_url***
+[INFO] [2023-03-29 16:19:32] PHP Version: 7.4.33
+[INFO] [2023-03-29 16:19:32] WP Version: 6.1.1
+[INFO] [2023-03-29 16:19:32] MySQL Version: 8.0.32
+[INFO] [2023-03-29 16:19:32] MySQL Max Length: 268435456
+[INFO] [2023-03-29 16:19:32] Web server: TasteWP-S1 Official/3.0.0
+[INFO] [2023-03-29 16:19:32] Max execution time (in seconds): 259200
+[INFO] [2023-03-29 16:19:32] Max rows per query (this site): 2000
+[INFO] [2023-03-29 16:19:32] Checking if backup dir is writable...
+[INFO] [2023-03-29 16:19:32] Initializing custom error handler
+[SUCCESS] [2023-03-29 16:19:32] Yup it is writable...
+[STEP] [2023-03-29 16:19:32] Scanning files...
+[WARN] [2023-03-29 16:19:32] Removing file from backup (due to path rules): ***ABSPATH***/wp-config.php
+[STEP] [2023-03-29 16:19:32] Checking free space, reserving...
+[INFO] [2023-03-29 16:19:32] Requires at least 77625186 bytes. [74.03 MB]
+[INFO] [2023-03-29 16:19:32] Disk free space function is disabled by hosting.
+[INFO] [2023-03-29 16:19:32] Using dummy file to check free space (it can take some time).
+[SUCCESS] [2023-03-29 16:19:32] Confirmed, there is more than enough space, checked: 77625186 bytes
+[INFO] [2023-03-29 16:19:32] Scanning done - found 4052 files...
+[SUCCESS] [2023-03-29 16:19:32] Backup initialized...
+[STEP] [2023-03-29 16:19:32] Initializing archiving system...
+[SUCCESS] [2023-03-29 16:19:32] Archive system initialized...
+[STEP] [2023-03-29 16:19:32] Preparing map of files...
+[SUCCESS] [2023-03-29 16:19:32] Files prepared.
+[INFO] [2023-03-29 16:19:32] Starting compression process...
+[STEP] [2023-03-29 16:19:32] Smart memory calculation...
+[INFO] [2023-03-29 16:19:32] There is 384 MBs of memory to use
+[INFO] [2023-03-29 16:19:32] WordPress memory limit: 96 MBs
+[SUCCESS] [2023-03-29 16:19:32] Setting the safe limit to 86 MB
+[INFO] [2023-03-29 16:19:32] Using PclZip module to create the backup
+[INFO] [2023-03-29 16:19:32] Legacy setting: Using default modules depending on user server
+[STEP] [2023-03-29 16:19:32] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-03-29 16:19:32] Iterating database...
+[INFO] [2023-03-29 16:19:32] Memory usage after initialization: 30.88 MB
+[INFO] [2023-03-29 16:19:32] Scan found 27 tables (218 rows), estimated total size: 2.42 MB.
+[INFO] [2023-03-29 16:19:32] Memory usage after getting table names: 30.89 MB 
+[INFO] [2023-03-29 16:19:32] Getting table recipes...
+[INFO] [2023-03-29 16:19:32] Table recipes have been exported.
+[INFO] [2023-03-29 16:19:32] Memory usage after loading recipes: 30.91 MB 
+[INFO] [2023-03-29 16:19:32] Saving recipes...
+[INFO] [2023-03-29 16:19:32] Recipes saved.
+[INFO] [2023-03-29 16:19:32] Memory usage after recipe off-load: 30.89 MB
+[INFO] [2023-03-29 16:19:32] Exporting table data...
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_commentmeta (1/27, 0.05 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_comments (2/27, 0.09 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_comments finished (0.00023s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_links (3/27, 0.03 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_links is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_options (4/27, 1.53 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_options finished (0.01259s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_postmeta (5/27, 0.05 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_postmeta finished (0.00019s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_posts (6/27, 0.08 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_posts finished (0.00045s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_term_relationships (7/27, 0.03 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_term_relationships finished (0.00015s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_term_taxonomy (8/27, 0.05 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_term_taxonomy finished (0.00016s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_termmeta (9/27, 0.05 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_terms (10/27, 0.05 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_terms finished (0.00015s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_usermeta (11/27, 0.05 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_usermeta finished (0.00029s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_users (12/27, 0.06 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_users finished (0.00018s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_actions (13/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_actions is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_contexts (14/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_contexts is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_debug_log (15/27, 0.02 MB)
+[SUCCESS] [2023-03-29 16:19:32] Table export for: wp_watsonconv_debug_log finished (0.00022s)
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_entities (16/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_entities is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_input_entities (17/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_input_entities is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_input_intents (18/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_input_intents is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_intents (19/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_intents is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_output_entities (20/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_output_entities is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_output_intents (21/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_output_intents is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_requests (22/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_requests is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_sessions (23/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_sessions is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_task_runner_queue (24/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_task_runner_queue is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_user_inputs (25/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_user_inputs is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_watsonconv_watson_outputs (26/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_watsonconv_watson_outputs is empty, saving only recipe.
+[STEP] [2023-03-29 16:19:32] Getting data of table: wp_wpfm_backup (27/27, 0.02 MB)
+[INFO] [2023-03-29 16:19:32] Table wp_wpfm_backup is empty, saving only recipe.
+[INFO] [2023-03-29 16:19:32] Table data exported.
+[INFO] [2023-03-29 16:19:32] Memory usage after data export: 30.88 MB
+[INFO] [2023-03-29 16:19:32] Entire process took: 0.0458 s
+[SUCCESS] [2023-03-29 16:19:32] Database backup finished
+[STEP] [2023-03-29 16:19:32] Making archive
+[INFO] [2023-03-29 16:19:32] Compressing...
+[WARN] [2023-03-29 16:19:32] Backup will run as single-request, may be unstable...
+[STEP] [2023-03-29 16:19:32] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-03-29 16:19:32] Database added to the backup successfully.
+[STEP] [2023-03-29 16:19:32] Performing site files backup...
+[INFO] [2023-03-29 16:19:32] Chunks contain 200 files.
+[INFO] [2023-03-29 16:19:32] Milestone: 1000/4052
+[INFO] [2023-03-29 16:19:32] Milestone: 2000/4052
+[INFO] [2023-03-29 16:19:33] Milestone: 3000/4052
+[INFO] [2023-03-29 16:19:34] Milestone: 4000/4052
+[INFO] [2023-03-29 16:19:34] Milestone: 4052/4052
+[SUCCESS] [2023-03-29 16:19:34] Compressed 4052 files
+[INFO] [2023-03-29 16:19:34] Archiving of 4052 files took: 1.91s
+[STEP] [2023-03-29 16:19:34] Finalizing backup
+[INFO] [2023-03-29 16:19:34] Adding manifest...
+[STEP] [2023-03-29 16:19:34] Closing files and archives
+[END-CODE] [2023-03-29 16:19:34] #001
+
+[DOWNLOAD GENERATED] File downloaded on (server time): 2023-03-29 16:19:43
+[DOWNLOAD GENERATED] Last update (seconds): 9 seconds ago 
+[DOWNLOAD GENERATED] Last update (date): 2023-03-29 16:19:34 
