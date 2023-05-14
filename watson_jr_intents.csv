@@ -1,0 +1,479 @@
+How can I configure you?,About_You
+How do you function?,About_You
+How old are you?,About_You
+Introduce your self,About_You
+Let us talk about you,About_You
+Tell me about your life,About_You
+Tell me something about yourself,About_You
+What should I know about you?,About_You
+What's your name?,About_You
+Where are you from?,About_You
+Where were you born?,About_You
+Who are you?,About_You
+Why are you here?,About_You
+About you,About_You
+Describe your self,About_You
+Do you have a name?,About_You
+Do you know who you are?,About_You
+What are you able to deal with?,Agent_Capabilities
+What else can you help me with?,Agent_Capabilities
+What kinds of things can you do?,Agent_Capabilities
+Show me all your capablities,Agent_Capabilities
+Can you tell me what services you are able to help me with?,Agent_Capabilities
+I'd like to know what type of questions you can answer for me.,Agent_Capabilities
+Is there anything you can help me with?,Agent_Capabilities
+Tell me about what kind of things you do?,Agent_Capabilities
+What are my options that you can help with?,Agent_Capabilities
+What do you handle?,Agent_Capabilities
+What are you capable of?,Agent_Capabilities
+What are you good at?,Agent_Capabilities
+What are you used for?,Agent_Capabilities
+What are your skills?,Agent_Capabilities
+What do you do?,Agent_Capabilities
+show me the list of capabilities,Agent_Inquiries
+Do you have a list of things I can talk to you about?,Agent_Inquiries
+Can you please give me a list of the types of things you can help me with?,Agent_Inquiries
+Give me all the questions I ask you,Agent_Inquiries
+Give me a complete list of quieries I can ask you of,Agent_Inquiries
+Help me with this other question,Change_Subject
+Discuss something else,Change_Subject
+Chat about something else,Change_Subject
+Change topic,Change_Subject
+Can we talk about something else?,Change_Subject
+Another thing,Change_Subject
+A different matter,Change_Subject
+Here is another issue,Change_Subject
+I have one more question,Change_Subject
+Let us change the topic,Change_Subject
+Let us talk about something else,Change_Subject
+Talk about something else,Change_Subject
+Lets have a tea party,Chit-Chat
+I want to have a chit chat with you,Chit-Chat
+Can you be my friend,Chit-Chat
+I want to have a general conversation with yyo,Chit-Chat
+I want to make you my friend,Chit-Chat
+Lets be friends,Chit-Chat
+Bye bye,Communication_Ending
+Time to go,Communication_Ending
+That's everything,Communication_Ending
+That is all,Communication_Ending
+"Thanks very much, bye!",Communication_Ending
+"Thanks, bye!",Communication_Ending
+Thank you for your time,Communication_Ending
+Stop talking to me,Communication_Ending
+Stop doing this,Communication_Ending
+Shut up,Communication_Ending
+See you,Communication_Ending
+See you later,Communication_Ending
+Ok goodbye,Communication_Ending
+It was nice chatting with you,Communication_Ending
+I'm leaving now,Communication_Ending
+Im good thank you,Communication_Ending
+Im done,Communication_Ending
+I'm done,Communication_Ending
+I want to quit,Communication_Ending
+I have got to go,Communication_Ending
+I d like to stop doing this,Communication_Ending
+I am out of here,Communication_Ending
+I am leaving,Communication_Ending
+Hey bot go away,Communication_Ending
+Have a nice day?,Communication_Ending
+Goodbye,Communication_Ending
+Good. bye.,Communication_Ending
+Going now,Communication_Ending
+Go off,Communication_Ending
+Go away,Communication_Ending
+Get lost,Communication_Ending
+"Finished now, good bye",Communication_Ending
+Ending this session,Communication_Ending
+End trial,Communication_Ending
+Cya later,Communication_Ending
+Catch you later,Communication_Ending
+Bye now,Communication_Ending
+how many languages you speak,Communication_Languages
+How can we communicate,Communication_Languages
+What langugae do you use?,Communication_Languages
+i prefer talking in arabic,Communication_Languages
+can we speak in chinese,Communication_Languages
+can i talk in any language,Communication_Languages
+can i talk in english?,Communication_Languages
+How safe is my data?,Communication_Security_Assurance
+What guards do you have in place to protect your customer's data?,Communication_Security_Assurance
+What makes this chat trustworthy?,Communication_Security_Assurance
+What safety measures are used to ensure that chat is secure?,Communication_Security_Assurance
+Why would I trust this chat?,Communication_Security_Assurance
+Will my conversation remain secured?,Communication_Security_Assurance
+How is my credit card info secured?,Communication_Security_Assurance
+How do I know this chat is not a scam?,Communication_Security_Assurance
+How do I know if my card info is kept safe?,Communication_Security_Assurance
+Do you have protection against hacks?,Communication_Security_Assurance
+Customer info secured?,Communication_Security_Assurance
+Conversation secure?,Communication_Security_Assurance
+Can I be sure that my stored card details are held securely?,Communication_Security_Assurance
+Are you safe?,Communication_Security_Assurance
+Are you safe on hackers?,Communication_Security_Assurance
+I'd like proof of a secure chat,Communication_Security_Assurance
+Secure conversation?,Communication_Security_Assurance
+Protection hacks?,Communication_Security_Assurance
+Precautions hackers?,Communication_Security_Assurance
+Is this conversation secure?,Communication_Security_Assurance
+Is this an official chat?,Communication_Security_Assurance
+Is this a trusted chat site?,Communication_Security_Assurance
+Is there a reason to distrust this chat?,Communication_Security_Assurance
+Is my payment information secure?,Communication_Security_Assurance
+Is my card info secure?,Communication_Security_Assurance
+In what way can I tell if my plastic is safe?,Communication_Security_Assurance
+Good day,Communication_Start
+You there,Communication_Start
+Who is this?,Communication_Start
+What's up?,Communication_Start
+What's new?,Communication_Start
+Ok take me back,Communication_Start
+Looking good eve,Communication_Start
+How r u?,Communication_Start
+How is it going?,Communication_Start
+How have you been?,Communication_Start
+How are you today?,Communication_Start
+How are things going?,Communication_Start
+Hi there,Communication_Start
+Hi advisor,Communication_Start
+Hey you,Communication_Start
+Hey twin,Communication_Start
+Hey there,Communication_Start
+Hey there all,Communication_Start
+Hey how are you doing,Communication_Start
+Hello,Communication_Start
+Hello I am looking for some help here,Communication_Start
+Hello Agent,Communication_Start
+Have you been well?,Communication_Start
+Greetings,Communication_Start
+Good to see you,Communication_Start
+Good morning,Communication_Start
+Good evening,Communication_Start
+Oi,Communication_Start
+Did you hear what I said?,Confirm_Presence
+Are you there?,Confirm_Presence
+Are you still here with me?,Confirm_Presence
+Are you still around?,Confirm_Presence
+Are you on?,Confirm_Presence
+Are you leaving me?,Confirm_Presence
+Anyone there?,Confirm_Presence
+Have I lost you?,Confirm_Presence
+I am still holding,Confirm_Presence
+Is anybody here?,Confirm_Presence
+Is anybody home?,Confirm_Presence
+Speak to me if you are there.,Confirm_Presence
+You around?,Confirm_Presence
+"A real agent, please.",Connect_to_Agent
+"Yes, take me to a real person",Connect_to_Agent
+Where is the closest agent?,Connect_to_Agent
+Send me to an agent,Connect_to_Agent
+Put me through to someone,Connect_to_Agent
+Please let me talk to a human being.,Connect_to_Agent
+Please connect me to a live agent,Connect_to_Agent
+Please assist me to get to an agent,Connect_to_Agent
+Operator please,Connect_to_Agent
+Need help from human,Connect_to_Agent
+Is there anyone there I can actually talk to for real?,Connect_to_Agent
+I would like to speak to someone,Connect_to_Agent
+I would like to speak to a human,Connect_to_Agent
+I want to talk to a person,Connect_to_Agent
+I want an agent to help me,Connect_to_Agent
+I want agent,Connect_to_Agent
+I want a manager,Connect_to_Agent
+I need to speak to a representative. How would I go about doing so?,Connect_to_Agent
+I don't want to talk to you,Connect_to_Agent
+I don't want to talk to a bot.,Connect_to_Agent
+How can I skip the recorded menu and go straight to a live person?,Connect_to_Agent
+Hi can you transfer me,Connect_to_Agent
+Do not want a robot?,Connect_to_Agent
+Customer service representative please.,Connect_to_Agent
+Could you please transfer me to your master?,Connect_to_Agent
+Contact person,Connect_to_Agent
+Connect me to a live operator please.,Connect_to_Agent
+Can you connect me with a real person?,Connect_to_Agent
+Can you assist me to connect to an agent?,Connect_to_Agent
+Can I talk to someone?,Connect_to_Agent
+Can I speak with somebody?,Connect_to_Agent
+Can I speak to an advisor?,Connect_to_Agent
+Can I speak to a live person?,Connect_to_Agent
+Can I speak to a human please?,Connect_to_Agent
+Can I connect to an agent?,Connect_to_Agent
+Call agent,Connect_to_Agent
+Agent help,Connect_to_Agent
+How can I contact your business?,Contact_Us
+How do I best contact you when there has been a problem with my bill?,Contact_Us
+I want to know number to the store closest to me,Contact_Us
+I would like to speak to customer service.,Contact_Us
+Is there a phone number to your shop at fort worth tx?,Contact_Us
+Need your phone number,Contact_Us
+Tell me the number to your general department,Contact_Us
+What is the closest store's phone number?,Contact_Us
+What is the customer number?,Contact_Us
+What is you email?,Contact_Us
+What number should I call to order new line of service?,Contact_Us
+Where can I reach the company personally?,Contact_Us
+Which is the number of the main office here in los angeles?,Contact_Us
+Who can I call?,Contact_Us
+Can you please arrange for someone to call me!?,Contact_Us
+Can you give me the number to the general manager?,Contact_Us
+Can I text you a question?,Contact_Us
+Can I get some more information?,Contact_Us
+Can I contact the business by post?,Contact_Us
+Hi can you let me have the telephone number of my local store please?,Contact_Us
+Surprise me with something hilarious,General_Jokes
+I'm bored,General_Jokes
+I want a joke,General_Jokes
+I am getting bored,General_Jokes
+Tell me a joke,General_Jokes
+Do you like humor?,General_Jokes
+Do you like fun?,General_Jokes
+Do you have humor?,General_Jokes
+Do you have a joke?,General_Jokes
+Can you tell me a joke?,General_Jokes
+Tell me something funny,General_Jokes
+What do you do for fun?,General_Jokes
+What is your favorite joke?,General_Jokes
+Another joke,General_Jokes
+Can you tell a joke?,General_Jokes
+Are there jokes?,General_Jokes
+One more joke,General_Jokes
+Are you a robot?,Human_or_Bot
+Are you a human or a bot?,Human_or_Bot
+Am I talking to a person or am I talking to an AI?,Human_or_Bot
+Am I talking to a Bot?,Human_or_Bot
+Am I talking to Watson?,Human_or_Bot
+Am I chatting with a human?,Human_or_Bot
+"Tell me, are you a human or no?",Human_or_Bot
+Is this a computer?,Human_or_Bot
+Are you even real?,Human_or_Bot
+Are you human?,Human_or_Bot
+Are you real?,Human_or_Bot
+How can you prove you are a human?,Human_or_Bot
+How can you help me?,I_Am_Unsure
+How can you solve my problems?,I_Am_Unsure
+How do I use you?,I_Am_Unsure
+I don t know what you need,I_Am_Unsure
+I don't know what to ask you?,I_Am_Unsure
+How can I use you?,I_Am_Unsure
+I do not know what to ask,I_Am_Unsure
+i don;t know what to ask you,I_Am_Unsure
+"I have no idea, actually",I_Am_Unsure
+I haven't got a clue,I_Am_Unsure
+I don t know what you want,I_Am_Unsure
+No clue,I_Am_Unsure
+No idea,I_Am_Unsure
+What can I ask you to do?,I_Am_Unsure
+What are you saying?,Need_Clarification
+What are you talking about?,Need_Clarification
+What do you mean by that?,Need_Clarification
+What do you mean?,Need_Clarification
+"Let's try to say that again more clearly, shall we?",Need_Clarification
+What are you referring to?,Need_Clarification
+I need more information,Need_Clarification
+I don't understand,Need_Clarification
+I don't understand what you're saying,Need_Clarification
+I don't get it,Need_Clarification
+I didn't understand that properly,Need_Clarification
+I didn't quite understand what you said,Need_Clarification
+Can you say that again please?,Need_Clarification
+Come again?,Need_Clarification
+Explains,Need_Clarification
+I did not quite understand what you gave me,Need_Clarification
+I didn't catch that,Need_Clarification
+I need help,Need_Help
+Help me please,Need_Help
+It is annoying,Negative_Feedback
+Quit annoying me,Negative_Feedback
+You are very frustrating,Negative_Feedback
+Stupid,Negative_Feedback
+Why are you so annoying?,Negative_Feedback
+You're too stupid,Negative_Feedback
+You're really irritating,Negative_Feedback
+You're really frustrating,Negative_Feedback
+You do not seem smart,Negative_Feedback
+Robots are stupid,Negative_Feedback
+You are on my nerves,Negative_Feedback
+You are having delusions,Negative_Feedback
+Why are you stupid?,Negative_Feedback
+Do not like you?,Negative_Feedback
+Everyone hates you,Negative_Feedback
+Hate you,Negative_Feedback
+I do not like you,Negative_Feedback
+I hate this!,Negative_Feedback
+I hate you,Negative_Feedback
+Robots are boring,Negative_Feedback
+Can't believe you are that good,Positive_Feedback
+You are great,Positive_Feedback
+You are awesome,Positive_Feedback
+This is so cool,Positive_Feedback
+This is great,Positive_Feedback
+This is good,Positive_Feedback
+Thank you,Positive_Feedback
+Ok thank you,Positive_Feedback
+Love your work,Positive_Feedback
+I'm looking forward to working with you again! :),Positive_Feedback
+I like what you did there! :),Positive_Feedback
+How cool is this?,Positive_Feedback
+Brilliant!,Positive_Feedback
+You're a genius!,Positive_Feedback
+You are the best,Positive_Feedback
+You've been so helpful :),Positive_Feedback
+You are wonderful,Positive_Feedback
+You gave me exactly what I need!,Positive_Feedback
+You the man,Positive_Feedback
+Is sale on?,Query_Events
+Tell me about events,Query_Events
+Hey what events are planned in what time,Query_Events
+Hey what events for what cities or branch,Query_Events
+Tell me about annual or monthly sales,Query_Events
+Tell me list of annul events,Query_Events
+when is the sale,Query_Events
+Any big events planned?,Query_Events
+What does your business sell?,Query_Products_Offered
+What does your shop provide?,Query_Products_Offered
+What kind of products are available?,Query_Products_Offered
+What kinds of products do you sell?,Query_Products_Offered
+What potential products or services are available?,Query_Products_Offered
+What product do you recommend for a tech consultant?,Query_Products_Offered
+What products are offered in the company?,Query_Products_Offered
+What products can I get from your company?,Query_Products_Offered
+What products do you offer in the company?,Query_Products_Offered
+Catalogue look,Query_Products_Offered
+I need information on one of your products,Query_Products_Offered
+I would like to know what I can buy,Query_Products_Offered
+Items available?,Query_Products_Offered
+Items currently sold,Query_Products_Offered
+Need to know what products you have,Query_Products_Offered
+New products,Query_Products_Offered
+Show me retirement products,Query_Products_Offered
+Show me some cars,Query_Products_Offered
+Tell me about shoes,Query_Products_Offered
+What are your business banking products?,Query_Products_Offered
+What is the closest store to my address?,Query_Store_Locations
+What is the closest pharmacy?,Query_Store_Locations
+Restuarants nearby please,Query_Store_Locations
+I'd like to go to a store,Query_Store_Locations
+Where is your office?,Query_Store_Locations
+Can you tell me about physical locations you have in new jersey?,Query_Store_Locations
+Show me nearest service center,Query_Store_Locations
+Find store,Query_Store_Locations
+Do you have an office in denver?,Query_Store_Locations
+What is the nearest branch?,Query_Store_Locations
+I need help with find a store,Query_Store_Locations
+Where is?,Query_Store_Locations
+Where are you located?,Query_Store_Locations
+Go to your company,Query_Store_Locations
+Can you help me find locations in the general area of downtown baltimore?,Query_Store_Locations
+Looking for a location,Query_Store_Locations
+Where are the store locations closest to davis city hall?,Query_Store_Locations
+What is the store near my zip code?,Query_Store_Locations
+I want to know about a store,Query_Store_Locations
+Hey where are your store located,Query_Store_Locations
+Give me a list of your store locations,Query_Store_Locations
+Give me map of your store locatons,Query_Store_Locations
+What cities have your branches,Query_Store_Locations
+Where are your store branches located,Query_Store_Locations
+Tell me locations of your store branches,Query_Store_Locations
+Tell me about the brancehs,Query_Store_Locations
+Is there any shopping mall around me?,Query_Store_Locations
+When can i visit the store,Query_Store_Time
+Are the stores open early?,Query_Store_Time
+Are you open during thanksgiving?,Query_Store_Time
+Are you open on bank holidays?,Query_Store_Time
+Is the branch open now?,Query_Store_Time
+What time is your store open on saturday?,Query_Store_Time
+What are the saturday opening times for the local store?,Query_Store_Time
+What are the hours of operation?,Query_Store_Time
+How early do you open?,Query_Store_Time
+Does the store in the city center opens till 8pm on weekends?,Query_Store_Time
+What are the business hours of the store nearest to me?,Query_Store_Time
+What is the opening time for the washington store?,Query_Store_Time
+At what hour can I swing by?,Query_Store_Time
+What time does the central manchester store shut on a saturday?,Query_Store_Time
+What time do stores close?,Query_Store_Time
+What time are you closing today?,Query_Store_Time
+What are your hous?,Query_Store_Time
+What are ur opening hours?,Query_Store_Time
+Can you tell me how late the stores are open till?,Query_Store_Time
+How long are you open?,Query_Store_Time
+What your your store timings,Query_Store_Time
+At what time is your store open,Query_Store_Time
+What are your working hours,Query_Store_Time
+"Are you open on sundays, and if so what are the hours?",Query_Store_Time
+Give me link to the home page,Redirect_Page
+I want to go to home page,Redirect_Page
+Home Page,Redirect_Page
+That Pagfe,Redirect_Page
+This page,Redirect_Page
+Take Me To Contact Us Page,Redirect_Page
+Website Navigation Menus,Redirect_Page
+Where Can I find About Us,Redirect_Page
+Store Portfolio Page,Redirect_Page
+Take me to store portfolio,Redirect_Page
+Do your website have about us page,Redirect_Page
+What pages this website have,Redirect_Page
+Redirect me to home page,Redirect_Page
+Give me address of home page,Redirect_Page
+I want to goto main,Redirect_Page
+No,Reject_Response
+Not the right response,Reject_Response
+That answer is incorrect,Reject_Response
+That is not true,Reject_Response
+That sounds like the wrong response,Reject_Response
+That was not my intent,Reject_Response
+"That was wrong, try again",Reject_Response
+Wrong response,Reject_Response
+You did not understand what I asked,Reject_Response
+You did not understand what I said,Reject_Response
+You didn't understand me,Reject_Response
+You're misunderstanding me,Reject_Response
+I don't need that,Reject_Response
+I do not think it is the answer?,Reject_Response
+I disagree,Reject_Response
+Bad response,Reject_Response
+I don't want that,Reject_Response
+I wasn't looking for that,Reject_Response
+It is not what I want,Reject_Response
+It is not what I was looking for,Reject_Response
+No I'm fine thanks,Reject_Response
+Hold on,Standby
+I will be back,Standby
+I would like to put you on hold,Standby
+In a moment,Standby
+Just a sec,Standby
+Just hold on,Standby
+Keep holding,Standby
+Let me see,Standby
+Need a minute here,Standby
+Out for a break,Standby
+Wait,Standby
+Back again soon,Standby
+Be back later,Standby
+Be patient with me,Standby
+Can you give me a moment?,Standby
+Can you wait for me?,Standby
+Give me a few minutes to get together,Standby
+Give me a moment,Standby
+Give me a second,Standby
+I want stop a moment,Standby
+Please reset,Start_Over
+Please start a new chat,Start_Over
+Restart,Start_Over
+Back to the top,Start_Over
+Begin over!,Start_Over
+Can we please start over?,Start_Over
+How can I start over?,Start_Over
+I need to reset.,Start_Over
+I want start from the beginning,Start_Over
+I would like to start all over,Start_Over
+Let us reopen this again.,Start_Over
+Let's go back to square one,Start_Over
+Let's pick this up from the top again.,Start_Over
+One more time from the beginning,Start_Over
+We will need to begin again,Start_Over
+Start over,Start_Over
+We need a do-over,Start_Over
+"Actually, let's start over",Start_Over
+Back to the beginning,Start_Over
+Please initiate from the beginning,Start_Over

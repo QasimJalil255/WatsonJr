@@ -1,0 +1,2613 @@
+{
+  "intents": [
+    {
+      "intent": "About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Show me all your capablities"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Agent_Inquiries",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Give me a complete list of quieries I can ask you of"
+        },
+        {
+          "text": "Give me all the questions I ask you"
+        },
+        {
+          "text": "show me the list of capabilities"
+        }
+      ]
+    },
+    {
+      "intent": "Change_Subject",
+      "examples": [
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Chit-Chat",
+      "examples": [
+        {
+          "text": "Can you be my friend"
+        },
+        {
+          "text": "I want to have a chit chat with you"
+        },
+        {
+          "text": "I want to have a general conversation with yyo"
+        },
+        {
+          "text": "I want to make you my friend"
+        },
+        {
+          "text": "Lets be friends"
+        },
+        {
+          "text": "Lets have a tea party"
+        }
+      ]
+    },
+    {
+      "intent": "Communication_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Communication_Languages",
+      "examples": [
+        {
+          "text": "can i talk in any language"
+        },
+        {
+          "text": "can i talk in english?"
+        },
+        {
+          "text": "can we speak in chinese"
+        },
+        {
+          "text": "How can we communicate"
+        },
+        {
+          "text": "how many languages you speak"
+        },
+        {
+          "text": "i prefer talking in arabic"
+        },
+        {
+          "text": "What langugae do you use?"
+        }
+      ],
+      "description": "User wants to know in which language they can interact with the chatbot"
+    },
+    {
+      "intent": "Communication_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Communication_Start",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Confirm_Presence",
+      "examples": [
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "You around?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Contact_Us",
+      "examples": [
+        {
+          "text": "Can I contact the business by post?"
+        },
+        {
+          "text": "Can I get some more information?"
+        },
+        {
+          "text": "Can I text you a question?"
+        },
+        {
+          "text": "Can you give me the number to the general manager?"
+        },
+        {
+          "text": "Can you please arrange for someone to call me!?"
+        },
+        {
+          "text": "Hi can you let me have the telephone number of my local store please?"
+        },
+        {
+          "text": "How can I contact your business?"
+        },
+        {
+          "text": "How do I best contact you when there has been a problem with my bill?"
+        },
+        {
+          "text": "Is there a phone number to your shop at fort worth tx?"
+        },
+        {
+          "text": "I want to know number to the store closest to me"
+        },
+        {
+          "text": "I would like to speak to customer service."
+        },
+        {
+          "text": "Need your phone number"
+        },
+        {
+          "text": "Tell me the number to your general department"
+        },
+        {
+          "text": "What is the closest store's phone number?"
+        },
+        {
+          "text": "What is the customer number?"
+        },
+        {
+          "text": "What is you email?"
+        },
+        {
+          "text": "What number should I call to order new line of service?"
+        },
+        {
+          "text": "Where can I reach the company personally?"
+        },
+        {
+          "text": "Which is the number of the main office here in los angeles?"
+        },
+        {
+          "text": "Who can I call?"
+        }
+      ],
+      "description": "Find basic contact information."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "I_Am_Unsure",
+      "examples": [
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I don't know what to ask you?"
+        },
+        {
+          "text": "i don;t know what to ask you"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "What can I ask you to do?"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Need_Clarification",
+      "examples": [
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Need_Help",
+      "examples": [
+        {
+          "text": "Help me please"
+        },
+        {
+          "text": "I need help"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Query_Events",
+      "examples": [
+        {
+          "text": "Any big events planned?"
+        },
+        {
+          "text": "Hey what events are planned in what time"
+        },
+        {
+          "text": "Hey what events for what cities or branch"
+        },
+        {
+          "text": "Is sale on?"
+        },
+        {
+          "text": "Tell me about annual or monthly sales"
+        },
+        {
+          "text": "Tell me about events"
+        },
+        {
+          "text": "Tell me list of annul events"
+        },
+        {
+          "text": "when is the sale"
+        }
+      ]
+    },
+    {
+      "intent": "Query_Products_Offered",
+      "examples": [
+        {
+          "text": "Catalogue look"
+        },
+        {
+          "text": "I need information on one of your products"
+        },
+        {
+          "text": "Items available?"
+        },
+        {
+          "text": "Items currently sold"
+        },
+        {
+          "text": "I would like to know what I can buy"
+        },
+        {
+          "text": "Need to know what products you have"
+        },
+        {
+          "text": "New products"
+        },
+        {
+          "text": "Show me retirement products"
+        },
+        {
+          "text": "Show me some cars"
+        },
+        {
+          "text": "Tell me about shoes"
+        },
+        {
+          "text": "What are your business banking products?"
+        },
+        {
+          "text": "What does your business sell?"
+        },
+        {
+          "text": "What does your shop provide?"
+        },
+        {
+          "text": "What kind of products are available?"
+        },
+        {
+          "text": "What kinds of products do you sell?"
+        },
+        {
+          "text": "What potential products or services are available?"
+        },
+        {
+          "text": "What product do you recommend for a tech consultant?"
+        },
+        {
+          "text": "What products are offered in the company?"
+        },
+        {
+          "text": "What products can I get from your company?"
+        },
+        {
+          "text": "What products do you offer in the company?"
+        }
+      ],
+      "description": "Find products that are available for purchase."
+    },
+    {
+      "intent": "Query_Store_Locations",
+      "examples": [
+        {
+          "text": "Can you help me find locations in the general area of downtown baltimore?"
+        },
+        {
+          "text": "Can you tell me about physical locations you have in new jersey?"
+        },
+        {
+          "text": "Do you have an office in denver?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "Give me a list of your store locations"
+        },
+        {
+          "text": "Give me map of your store locatons"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "Hey where are your store located"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "Is there any shopping mall around me?"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "Restuarants nearby please"
+        },
+        {
+          "text": "Show me nearest service center"
+        },
+        {
+          "text": "Tell me about the brancehs"
+        },
+        {
+          "text": "Tell me locations of your store branches"
+        },
+        {
+          "text": "What cities have your branches"
+        },
+        {
+          "text": "What is the closest pharmacy?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "Where are the store locations closest to davis city hall?"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where are your store branches located"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where is your office?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Query_Store_Time",
+      "examples": [
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "At what time is your store open"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What are your working hours"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "What your your store timings"
+        },
+        {
+          "text": "When can i visit the store"
+        }
+      ]
+    },
+    {
+      "intent": "Redirect_Page",
+      "examples": [
+        {
+          "text": "Do your website have about us page"
+        },
+        {
+          "text": "Give me address of home page"
+        },
+        {
+          "text": "Give me link to the home page"
+        },
+        {
+          "text": "Home Page"
+        },
+        {
+          "text": "I want to go to home page"
+        },
+        {
+          "text": "I want to goto main"
+        },
+        {
+          "text": "Redirect me to home page"
+        },
+        {
+          "text": "Store Portfolio Page"
+        },
+        {
+          "text": "Take Me To Contact Us Page"
+        },
+        {
+          "text": "Take me to store portfolio"
+        },
+        {
+          "text": "That Pagfe"
+        },
+        {
+          "text": "This page"
+        },
+        {
+          "text": "Website Navigation Menus"
+        },
+        {
+          "text": "What pages this website have"
+        },
+        {
+          "text": "Where Can I find About Us"
+        }
+      ],
+      "description": "User wants to move somewhere in the site"
+    },
+    {
+      "intent": "Reject_Response",
+      "examples": [
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Standby",
+      "examples": [
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Events_List",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "June",
+          "synonyms": [
+            "15 of june",
+            "15th June",
+            "June 15"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Store_Locations",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Islamabad",
+          "synonyms": [
+            "Capital"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lahore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rawalpindi",
+          "synonyms": [
+            "Pindi"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Website_Pages",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "About_Us",
+          "synonyms": [
+            "About_Us Page"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Contact_Us",
+          "synonyms": [
+            "Contact_Us Page"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Home",
+          "synonyms": [
+            "Home Page",
+            "Main Page"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shop",
+          "synonyms": [
+            "Catalog",
+            "Inventory",
+            "Items",
+            "Products",
+            "Shop  Page"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "It looks like we are not quite getting each other. \n\nWould you like to talk to a human agent instead? If so, please contact us at +92 000 0000000 or email us at support\\@example.org. \n\nI can also redirect you to the contact us page if you would like me to."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1684078828638",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else."
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1684080025685",
+      "conditions": "#Communication_Ending",
+      "dialog_node": "node_10_1683898521498",
+      "previous_sibling": "node_10_1684077544799"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry, however currently, I cannot connect you directly to the agents myself. It is beyond my capabilities. \n\nMeanwhile, you can always get contact information at <a href=\"#\">Contact us page</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1684080025685",
+      "conditions": "#Connect_to_Agent",
+      "dialog_node": "node_10_1684077544799"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1684077767414",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Redirect_Page",
+      "dialog_node": "node_10_1684077791211"
+    },
+    {
+      "type": "folder",
+      "title": "Chit chat",
+      "dialog_node": "node_1_1683898415682",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1684061937959",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Store_Locations",
+      "dialog_node": "node_1_1684062259126"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our hours of operations are listed on <a href=\"https://example.org/hours/\">our Hours page</a>\n\nIn case you need to know about a specific branch I can help you with that."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1684061937959",
+      "conditions": "true",
+      "dialog_node": "node_1_1684063012929",
+      "previous_sibling": "node_1_1684062259126"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "These are the cities where our branches are.\n1) Islamabad\n2) Rawalpindi\n3) Lahore"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1684063414265",
+      "conditions": "true",
+      "dialog_node": "node_1_1684063491121",
+      "previous_sibling": "node_8_1684063450190"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a Fose, a chatbot created to demonstrate the power of chatbots in customer service in web-store navigation. I was created by students of FAST enrolled in SE courses as a requirement for them to pass the course. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1684065713520",
+      "conditions": "#About_You",
+      "dialog_node": "node_2_1683898468413"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1684061929379",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Query_Store_Locations",
+      "dialog_node": "node_2_1684063414265",
+      "previous_sibling": "node_4_1684065384020"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are multiple events planned for different branches in different months.\n\nIf you are interested in any specific one, go ahead.\nI can also help you with a list of our branches where are events arranged."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1684082144663",
+      "conditions": "true",
+      "dialog_node": "node_2_1684082200771",
+      "previous_sibling": "node_5_1684082197758"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a chatbot at your service."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1684065713520",
+      "conditions": "#Human_or_Bot",
+      "dialog_node": "node_3_1683898547799",
+      "previous_sibling": "node_2_1683898468413"
+    },
+    {
+      "type": "folder",
+      "title": "Communication Channel",
+      "parent": "node_1_1683898415682",
+      "dialog_node": "node_3_1684065884176",
+      "previous_sibling": "node_6_1683898508583"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1684077791211",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Website_Pages",
+      "dialog_node": "node_3_1684077852582"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, Here is a complete list of queries you can ask me from.\n1) Store Timings\n2) Store Locations\n3) Store Events"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684061929379",
+      "conditions": "#Agent_Inquiries",
+      "dialog_node": "node_4_1684065384020"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our site includes of following pages\nHome\nShop\nContact Us\nAbout Us\n\nTell me if you are specifically looking for one."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1684077791211",
+      "conditions": "true",
+      "dialog_node": "node_4_1684078111598",
+      "previous_sibling": "node_3_1684077852582"
+    },
+    {
+      "type": "folder",
+      "title": "The Endgame",
+      "parent": "node_1_1683898415682",
+      "dialog_node": "node_4_1684080025685",
+      "previous_sibling": "node_5_1683899429766"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, I'll be around."
+              },
+              {
+                "text": "I'll be waiting."
+              },
+              {
+                "text": "Just call me when you want any help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1684078738542",
+      "conditions": "#Standby",
+      "dialog_node": "node_5_1683898430080"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your life is a joke.  But wait jokes are meaningful and your life is not."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1683898415682",
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_5_1683899429766",
+      "previous_sibling": "node_8_1684080070436"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1684061929379",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Query_Store_Time",
+      "dialog_node": "node_5_1684061937959",
+      "previous_sibling": "node_2_1684063414265"
+    },
+    {
+      "type": "folder",
+      "title": "Site Navigation",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1684077767414",
+      "previous_sibling": "node_1_1683898415682"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am pleased to hear that. "
+              },
+              {
+                "text": "I am hopeful to help you in the future too."
+              },
+              {
+                "text": "Pleasure is mine"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1684078828638",
+      "conditions": "#Positive_Feedback",
+      "dialog_node": "node_5_1684078847627"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The event is arranged for the 15th of June 2023. The event is an annual mega-sale. Where all products will be 50% off. Hoping to see you there!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1684082144663",
+      "conditions": "@Events_List:June",
+      "dialog_node": "node_5_1684082197758",
+      "previous_sibling": "node_8_1684082193773"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. "
+              },
+              {
+                "text": "At your service."
+              },
+              {
+                "text": "Here to help you out."
+              },
+              {
+                "text": "Hi."
+              },
+              {
+                "text": "Greetings"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1683898415682",
+      "conditions": "#Communication_Start",
+      "dialog_node": "node_6_1683898508583"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This communication channel is entirely secure. Feel free to ask for help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1684065884176",
+      "conditions": "#Communication_Security_Assurance",
+      "dialog_node": "node_6_1684065828383",
+      "previous_sibling": "node_8_1683898801026"
+    },
+    {
+      "type": "folder",
+      "title": "Feedbacks",
+      "dialog_node": "node_6_1684078828638",
+      "previous_sibling": "node_8_1683898484640"
+    },
+    {
+      "type": "folder",
+      "title": "About Bot",
+      "parent": "node_1_1683898415682",
+      "dialog_node": "node_7_1684065713520",
+      "previous_sibling": "node_7_1684078738542"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Currently, I can communicate in English. Feel free to ask for help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1684065884176",
+      "conditions": "#Communication_Languages",
+      "dialog_node": "node_7_1684065760137",
+      "previous_sibling": "node_6_1684065828383"
+    },
+    {
+      "type": "folder",
+      "title": "Communication Status",
+      "parent": "node_1_1683898415682",
+      "dialog_node": "node_7_1684078738542",
+      "previous_sibling": "node_3_1684065884176"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry that I could not be of service. If you would like I can redirect you to a human agent."
+              },
+              {
+                "text": "Sorry for the inconvenience. Would you like to contact our human agent?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1684078828638",
+      "conditions": "#Negative_Feedback",
+      "dialog_node": "node_7_1684079093231",
+      "previous_sibling": "node_5_1684078847627"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1684061929379",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Query_Events",
+      "dialog_node": "node_7_1684082144663",
+      "previous_sibling": "node_5_1684061937959"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1) I can have a chit-chat with you.\n2) I can tell you some jokes.\n3) I can answer common queries.\n4) I can navigate you through our web store.\n5) I can inform you about store policies.\n6) I can connect you to our customer service agent.\n\nIf you are still not sure. I can show a full list of queries you can inquire about."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Agent_Capabilities",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1683898484640",
+      "previous_sibling": "node_9_1684079311503"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am here to help you out with common customer queries. \n\nI can show you the list of my capabilities if you would like to."
+              },
+              {
+                "text": "Would you like to see a list of my capabilities? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1684065884176",
+      "conditions": "#I_Am_Unsure",
+      "dialog_node": "node_8_1683898801026"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1684063414265",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Store_Locations",
+      "dialog_node": "node_8_1684063450190"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You, stupid human! Go make some real friends. It is a pity to see whats become of your species. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1683898415682",
+      "conditions": "#Chit-Chat",
+      "dialog_node": "node_8_1684080070436",
+      "previous_sibling": "node_7_1684065713520"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1684082144663",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Store_Locations",
+      "dialog_node": "node_8_1684082193773"
+    },
+    {
+      "type": "folder",
+      "title": "Queries",
+      "dialog_node": "node_9_1684061929379",
+      "previous_sibling": "node_5_1684077767414"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am here at your service. Feel free to call me whenever you like."
+              },
+              {
+                "text": "I am always here to help you."
+              },
+              {
+                "text": "Ask me whenever you need help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1684078738542",
+      "conditions": "#Confirm_Presence",
+      "dialog_node": "node_9_1684077377645",
+      "previous_sibling": "node_5_1683898430080"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a customer service chatbot. I can help you by answering common customer queries.\n\nFor now, Feel free to ask me. If you would like to see a range of my capabilities or want to see the full list of queries you can ask me. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Need_Help",
+      "dialog_node": "node_9_1684079311503",
+      "previous_sibling": "node_9_1684061929379"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can access our <a href=\"#\">@Website_Pages</a> page"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1684077852582",
+      "conditions": "@Website_Pages:Home",
+      "dialog_node": "response_1_1684077906727",
+      "previous_sibling": "response_3_1684077898931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aaamaan Kay Uupeer Zameen Kay Neechay"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684063450190",
+      "conditions": "@Store_Locations:Rawalpindi",
+      "dialog_node": "response_2_1684063755205",
+      "previous_sibling": "response_4_1684063477675"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our @Store_Locations branch is undergoing renovation. Sorry for the inconvenience. However our online delivery is still ON! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684062259126",
+      "conditions": "@Store_Locations:Lahore",
+      "dialog_node": "response_3_1684062426900",
+      "previous_sibling": "response_5_1684062342488"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can access our <a href=\"#\">@Website_Pages</a> page"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1684077852582",
+      "conditions": "@Website_Pages:Contact_Us",
+      "dialog_node": "response_3_1684077898931",
+      "previous_sibling": "response_8_1684077883143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our @Store_Locations Branch is located in H-11"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684063450190",
+      "conditions": "@Store_Locations:Islamabad",
+      "dialog_node": "response_4_1684063477675"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Islamabad branch is open from 10:00 am to 2:00 am for 5 working days a week."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684062259126",
+      "conditions": "@Store_Locations:Islamabad",
+      "dialog_node": "response_5_1684062342488"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can access our <a href=\"#\">@Website_Pages</a> page"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1684077852582",
+      "conditions": "@Website_Pages:Shop",
+      "dialog_node": "response_6_1684077912864",
+      "previous_sibling": "response_1_1684077906727"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lahorioun Say Raasta Nahi Poochtay Hotay"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684063450190",
+      "conditions": "@Store_Locations:Lahore",
+      "dialog_node": "response_7_1684063788715",
+      "previous_sibling": "response_2_1684063755205"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sir G Pindi Pindi Aaay. We don;t open the branch at all. Go to our online store."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684062259126",
+      "conditions": "@Store_Locations:Rawalpindi",
+      "dialog_node": "response_8_1684062493017",
+      "previous_sibling": "response_3_1684062426900"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can access our <a href=\"#\">@Website_Pages</a> page"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1684077852582",
+      "conditions": "@Website_Pages:About_Us",
+      "dialog_node": "response_8_1684077883143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is yearly sale arranged in our @Store_Locations branch in the month of June. It will be on 15th June."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684082193773",
+      "conditions": "@Store_Locations:Islamabad",
+      "dialog_node": "response_8_1684082504604"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No events arranged in @Store_Locations branch for now"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684082193773",
+      "conditions": "@Store_Locations:Lahore",
+      "dialog_node": "response_9_1684082580542",
+      "previous_sibling": "response_8_1684082504604"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No events arranged in @Store_Locations branch for now"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684082193773",
+      "conditions": "@Store_Locations:Rawalpindi",
+      "dialog_node": "response_9_1684082636943",
+      "previous_sibling": "response_9_1684082580542"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am Fose, a customer service chatbot at your service.\n\nYou can ask me to help you out with common customer queries. I can show you the list of my capabilities if you would like to."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant 069ebab0-cb47-4f9a-8ee9-68f8fc00c51f",
+  "name": "SE Project Chatbot-dialog"
+}
